@@ -1,0 +1,107 @@
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+
+.back1 {
+    width: 1425px;
+    display: block;
+}
+
+.container {
+    position: relative;
+}
+
+.text1 {
+    position: absolute;
+    bottom: 70px;
+    right: 670px;
+    background-color: black;
+    opacity: 0.8;
+    color: #ffffff;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 500px;
+    height: 200px;
+    border-radius: 11px;
+
+}
+
+.game-heading {
+    position: absolute;
+    bottom: 200px;
+    right: 880px;
+    
+    height: 200px;
+    font-weight: 900;
+    font-size: 60px;
+    color: black;
+}
+
+
+
+.start {
+    position: absolute;
+    top: 75%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+
+/* Found how to decorate the button on https://www.w3schools.com/ */
+
+.start {
+
+    border: none;
+    padding: 20px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #1b1b1b;
+    background-color: #ffffff;
+
+}
+
+
+.start {
+    background-color: white; 
+    color: #1b1b1b; 
+    border: 2px solid #002855;
+
+  }
+  
+  .start:hover {
+    background-color: #002855;
+    color: white;
+  }
+
+
+
+.text {
+    position: absolute;
+    top: 90%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    font-weight: 900;
+    font-size: 15px;
+    color: white;
+    width: 600px;
+    background-color: #1b1b1b;
+    opacity: .9;
+    padding: 30px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+
+
+  
+
